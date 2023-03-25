@@ -988,8 +988,7 @@ img.with-border {
 /* ----------------------------------------------*/
 #main-slider .flex-control-nav,
 .flex-control-paging {
-	background-color: transparent;
-	!important;
+	background-color: transparent !important;
 	margin: 0;
 	padding: 0;
 	position: absolute;
@@ -1117,7 +1116,7 @@ img.with-border {
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
 #save-the-date {
-	font-family: 'Pacifico';
+	font-family: 'Pacifico', cursive;
 	-ms-transform: rotate(-10deg);
 	/* IE 9 */
 	-webkit-transform: rotate(-10deg);
@@ -3910,3 +3909,4 @@ p{
 			margin-top: 10px;
 		}
 	}
+}
