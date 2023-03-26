@@ -173,7 +173,7 @@ $(document).ready(function () {
 	// 03. HIDDEN ALL ANIMATION CLASS
 	//==================================================================================
 	// Waypoint will animate it later (04.5 Waypoint Animate CSS)
-	if (!device.tablet() && !device.mobile() && !isIE9()) {
+	if (!isIE9()) {
 		$('.animation').css({
 			visibility: 'hidden'
 		});
