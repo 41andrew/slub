@@ -321,9 +321,9 @@ $(document).ready(function () {
 
 	// 05. IMAGE DIVIDER (Mobile / Tablet)
 	//==================================================================================
-	/*if (device.tablet() || device.mobile() || isIE9() || isIE10() ||isSafari()) {
+	if (device.tablet() || device.mobile() || isIE9() || isIE10() || isSafari()) {
 		$(".image-divider").addClass("mobile");
-	}*/
+	}
 
 	// 06. BIND TOUCH FOR PHOTO ITEM (Mobile / Tablet)
 	//==================================================================================
