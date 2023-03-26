@@ -285,7 +285,7 @@ $(document).ready(function () {
 
 		// 04.5 Waypoint Animate CSS
 		//------------------------------------------------------------------------------
-		if (!device.tablet() && !device.mobile() && !isIE9()) {
+		if (!isIE9()) {
 			$('.animation').each(function () {
 				var _this = this;
 				var animation_waypoint = new Waypoint({
