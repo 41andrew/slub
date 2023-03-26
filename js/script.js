@@ -302,7 +302,7 @@ $(document).ready(function () {
 
 		// 04.6 Stellar Parallax
 		//------------------------------------------------------------------------------
-		if (!isIE9() && !isIE10()) {
+		if (!device.tablet() && !device.mobile() && !isIE9() && !isIE10() && !isSafari()) {
 			$(".image-divider").css("background-attachment", "fixed");
 			$(window).stellar({
 				horizontalScrolling: false,
