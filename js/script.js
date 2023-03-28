@@ -279,7 +279,7 @@ $(document).ready(function () {
 			}
 
 		}, {
-			offset: '-100%'
+			offset: '-90%'
 		})
 
 
